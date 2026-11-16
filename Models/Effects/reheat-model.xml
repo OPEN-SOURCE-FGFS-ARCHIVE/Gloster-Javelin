@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<PropertyList>
+
+    <model>
+        <name>EngineReheatR</name>
+        <path>Aircraft/Gloster-Javelin/Models/Effects/reheat/reheat.xml</path>
+        <offsets>
+            <x-m> 9.349 </x-m>
+            <y-m> 0.57  </y-m>
+            <z-m> -0.22 </z-m>
+        </offsets>
+    </model>
+
+    <model>
+        <name>EngineReheatL</name>
+        <path>Aircraft/Gloster-Javelin/Models/Effects/reheat/reheat.xml</path>
+        <offsets>
+            <x-m> 9.349 </x-m>
+            <y-m> -0.57  </y-m>
+            <z-m> -0.22 </z-m>
+        </offsets>
+    </model>
+
+    <animation>
+        <type>select</type>
+        <name>EngineReheatR</name>
+        <condition>
+            <greater-than>
+                <property>sim/multiplay/generic/float[9]</property>
+                <value>0</value>
+            </greater-than>
+        </condition>
+    </animation>
+
+    <animation>
+        <type>select</type>
+        <name>EngineReheatL</name>
+        <condition>
+            <greater-than>
+                <property>sim/multiplay/generic/float[8]</property>
+                <value>0</value>
+            </greater-than>
+        </condition>
+    </animation>
+
+    <animation>
+        <type>scale</type>
+        <object-name>EngineReheatR</object-name>
+        <property>sim/multiplay/generic/float[9]</property>
+        <x-factor>0.925</x-factor>
+        <x-min>0.2</x-min>
+        <y-min>1.0</y-min>
+        <z-min>1.0</z-min>
+        <!--center>
+            <x-m> 6.64314   </x-m>
+            <y-m> 0  </y-m>
+            <z-m> -0.49394 </z-m>
+        </center-->
+    </animation>
+
+    <animation>
+        <type>scale</type>
+        <object-name>EngineReheatL</object-name>
+        <property>sim/multiplay/generic/float[8]</property>
+        <x-factor>0.925</x-factor>
+        <x-min>0.2</x-min>
+        <y-min>1.0</y-min>
+        <z-min>1.0</z-min>
+        <!--center>
+            <x-m> 6.64314   </x-m>
+            <y-m> 0  </y-m>
+            <z-m> -0.49394 </z-m>
+        </center-->
+    </animation>
+</PropertyList>

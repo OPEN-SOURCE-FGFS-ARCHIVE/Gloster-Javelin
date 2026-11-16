@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+
+<PropertyList>
+        <sim>
+                <model>
+                        <livery>
+                                <name type="string">RAF Aeroplane and Armament Experimental Establishment</name>
+                                <index type="int">1</index>
+                                <aircraft>Liveries/RAFAAEE.jpg</aircraft>
+                        </livery>
+                </model>
+    <rendering>
+    <refl_correction type="string">-0.43</refl_correction>
+    </rendering>
+        </sim>
+</PropertyList>
+

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PropertyList>
+
+<filter>
+  <name>IdlePitch</name>
+  <debug>false</debug>
+  <type>gain</type>
+  <gain>1.0</gain>
+  <input>
+    <expression>
+      <table>
+        <property>engines/engine[0]/thrust-lbs</property>
+          <entry><ind>0.0</ind><dep>0.0</dep></entry>
+          <entry><ind>3000.0</ind><dep>0.5</dep></entry>
+          <entry><ind>8000.0</ind><dep>0.8</dep></entry>
+      </table>
+    </expression>
+  </input>
+  <output>
+    <property>sound/idle-pitch</property>
+  </output>
+</filter>
+
+<filter>
+  <name>IdleGain</name>
+  <debug>false</debug>
+  <type>gain</type>
+  <gain>1.0</gain>
+  <input>
+    <expression>
+      <table>
+        <property>engines/engine[0]/thrust-lbs</property>
+          <entry><ind>0.0</ind><dep>1.0</dep></entry>
+          <entry><ind>3000.0</ind><dep>1.0</dep></entry>
+          <entry><ind>8000.0</ind><dep>0.0</dep></entry>
+      </table>
+    </expression>
+  </input>
+  <output>
+    <property>sound/idle-gain</property>
+  </output>
+</filter>
+
+<filter>
+  <name>IdlePitchWhine</name>
+  <debug>false</debug>
+  <type>gain</type>
+  <gain>1.0</gain>
+  <input>
+    <expression>
+      <table>
+        <property>engines/engine[0]/thrust-lbs</property>
+          <entry><ind>0.0</ind><dep>0.0</dep></entry>
+          <entry><ind>3000.0</ind><dep>0.6</dep></entry>
+          <entry><ind>8000.0</ind><dep>0.86</dep></entry>
+      </table>
+    </expression>
+  </input>
+  <output>
+    <property>sound/idle-pitch-whine</property>
+  </output>
+</filter>
+
+<filter>
+  <name>FullGain</name>
+  <debug>false</debug>
+  <type>gain</type>
+  <gain>1.0</gain>
+  <input>
+    <expression>
+      <table>
+        <property>engines/engine[0]/thrust-lbs</property>
+          <entry><ind>0.0</ind><dep>0.0</dep></entry>
+          <entry><ind>1500.0</ind><dep>0.0</dep></entry>
+          <entry><ind>5500.0</ind><dep>1.0</dep></entry>
+      </table>
+    </expression>
+  </input>
+  <output>
+    <property>sound/full-gain</property>
+  </output>
+</filter>
+
+<filter>
+  <name>FullGainInternal</name>
+  <debug>false</debug>
+  <type>gain</type>
+  <gain>1.0</gain>
+  <input>
+    <expression>
+      <table>
+        <property>engines/engine[0]/thrust-lbs</property>
+          <entry><ind>0.0</ind><dep>0.0</dep></entry>
+          <entry><ind>1500.0</ind><dep>0.0</dep></entry>
+          <entry><ind>5500.0</ind><dep>1.0</dep></entry>
+      </table>
+    </expression>
+  </input>
+  <output>
+    <property>sound/full-gain-internal</property>
+  </output>
+</filter>
+
+<filter>
+  <name>FullPitch</name>
+  <debug>false</debug>
+  <type>gain</type>
+  <gain>1.0</gain>
+  <input>
+    <expression>
+      <table>
+        <property>engines/engine[0]/thrust-lbs</property>
+          <entry><ind>5500.0</ind><dep>-0.3</dep></entry>
+          <entry><ind>8000.0</ind><dep>0.0</dep></entry>
+      </table>
+    </expression>
+  </input>
+  <output>
+    <property>sound/full-pitch</property>
+  </output>
+</filter>
+
+<filter>
+  <name>ABGain</name>
+  <debug>false</debug>
+  <type>gain</type>
+  <gain>1.0</gain>
+  <input>
+    <expression>
+      <table>
+        <property>engines/engine[0]/afterburner</property>
+          <entry><ind>0.0</ind><dep>0.0</dep></entry>
+          <entry><ind>1.0</ind><dep>1.0</dep></entry>
+      </table>
+    </expression>
+  </input>
+  <output>
+    <property>sound/ab-gain</property>
+  </output>
+</filter>
+
+<filter>
+  <name>Distant-Full-Gain</name>
+  <debug>false</debug>
+  <type>gain</type>
+  <gain>1.0</gain>
+  <input>
+    <expression>
+      <table>
+        <property>velocities/groundspeed-kt</property>
+          <entry><ind>0.0</ind><dep>0.0</dep></entry>
+          <entry><ind>100.0</ind><dep>0.0</dep></entry>
+          <entry><ind>200.0</ind><dep>1.0</dep></entry>
+      </table>
+    </expression>
+  </input>
+  <output>
+    <property>sound/distant-full-gain</property>
+  </output>
+</filter>
+
+<filter>
+  <name>External-Gain</name>
+  <debug>false</debug>
+  <type>gain</type>
+  <gain>1.0</gain>
+  <input>
+    <expression>
+      <table>
+        <property>canopy/position-norm</property>
+          <entry><ind>0.0</ind><dep>0.0</dep></entry>
+          <entry><ind>1</ind><dep>1.0</dep></entry>
+      </table>
+    </expression>
+  </input>
+  <output>
+    <property>sound/external-bleed-gain</property>
+  </output>
+</filter>
+
+</PropertyList>

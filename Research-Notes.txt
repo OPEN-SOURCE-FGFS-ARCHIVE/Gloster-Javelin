@@ -1,0 +1,55 @@
+Sources:
+
+Javelin FAW.7 Pilots Notes (pre mod 568)
+
+A Wind-Tunnel-Investigation of the Directional
+and Longitudinal Stability of the Javelin Aircraft
+at Transonic Speeds, Including Comparison with
+Flight Test Results (R. & M. No. 3403)
+
+
+Engine RPM Max 101.5
+Engine RPM Min 35
+
+Spool time from idle to full = 14 sec
+
+SFC = 0.885
+Engine weight = 3050lb
+
+'Wee-Heat' is on or off, no variability, should be able to calculate ATSFC if not available from core RPM drop at low altitude (12%)
+
+Standard Approach RPM min 60% - 75% with airbrakes
+
+Stall Speeds:	90Kts Flaps down
+		100Kts Flaps up
+
+Standard Approach at 160Kts
+
+Flaps up approach is 3 degrees higher nose high, standard glideslope (3 degrees), but tail strike is possible, so stick is pushed forward just before touchdown
+
+Tail strike angle is ~8 degrees, so with ~3 degrees extra room for full gear compression, approach aoa is probably 6-8 degrees with flaps down (nose will be 3-5 degrees above horizon)
+
+CG postion - 0.307 MAC
+
+Tail plane is all-moving, elevator is anti-balance tab (moves same direction as tail plane rather than opposite), trim is via tailplane angle
+
+Fuel Capacity:	915 gal / 7045 lb internal 
+				500 gal / 3850 lb total in ventral tanks
+
+				collector tanks are 40 gal / 308 lb (~15 sec inverted flight - but this is probably an oil limit)
+
+				10 wing tanks (5 / side)
+				 - tank 3 each side is at CG and holds 120 gal each
+				 - tanks 1 & 2 are forward of CG
+				 - tanks 4 & 5 are behind CG 
+				 - ventral tanks empty first
+				 - wing tanks empty evenly (same rate across all)
+				 - tanks 3 can be isolated to act as reserve 
+				 - all tanks are inboard of the guns
+				 - 1 is at leading edge inboard
+				 - 2 is between 1 & main gear bay inboard
+				 - 3 is outboard of 1 & 2 at CG 
+				 - 4 is behind main gear bay inboard
+				 - 5 is behind main gear bay outboard
+
+

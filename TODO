@@ -1,0 +1,24 @@
+Last Update 2021-06-28
+
+ - Tail plane on later marks is all-moving with elevators converted to use for trim only
+ - Can't see flaps or speedbrakes animated
+ - splash screens
+ - thumbnail (current is CF-105)
+ - turbine animation
+ - afterburner flame
+ - afterburner nozzle animation
+ - later marks have simple spring based pitch damping that is effective up to 320kts
+ - yaw damper
+ - audible low speed warning at ~170kts, cuts off VHF, when gear up
+ - audible stall warning based on speed / airflow, when gear up
+ - anti stall pusher built into artificial feel system pushes stick forward at low speeds (sound like boeing anyone?)
+ - afterburner fuel pumps cause issue below 8000ft causing 15% *drop* in thrust (not sure how to simulate this)
+ - gear animations
+ - fuel tank positions
+ - fuel system
+
+FIXED
+
+ - interior path issues
+ - model sitting flat on ground (uneven compression values)
+ - Liveries
